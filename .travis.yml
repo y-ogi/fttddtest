@@ -1,5 +1,4 @@
 language: objective-c
 
 script:
-  - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal -configuration DEBUG -sdk iphonesimulator6.1 ONLY_ACTIVE_ARCH=NO TARGETED_DEVICE_FAMILY=1
-  - cucumber
+  - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal -configuration DEBUG -sdk iphonesimulator7.0 ONLY_ACTIVE_ARCH=NO TARGETED_DEVICE_FAMILY=1
