@@ -1,8 +1,5 @@
 language: objective-c
 
-before_script:
-  - sudo gem install calabash-cucumber
-
 script:
-  - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal
+  - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal -configuration DEBUG -sdk iphonesimulator6.1 ONLY_ACTIVE_ARCH=NO TARGETED_DEVICE_FAMILY=1
   - cucumber
