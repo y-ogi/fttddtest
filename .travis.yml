@@ -6,3 +6,6 @@ before_script:
 script:
   - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal -configuration Debug -sdk iphonesimulator clean build
   - cucumber
+
+after_script:
+  - for file in $(ls -1 screenshot*); do curl -X POST http://gyazo.com/upload.cgi -F "imagedata=@$file" -F "filename=gyazo.com"; done;
