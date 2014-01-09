@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8421F8FE-09A6-48AD-96BE-28059504AC43</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FTTDDTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>251C35D7-9A44-4355-925B-F54A9E8EF3FD</key>
+		<string>ssh://github.com/y-ogi/fttddtest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FTTDDTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>251C35D7-9A44-4355-925B-F54A9E8EF3FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/y-ogi/fttddtest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>251C35D7-9A44-4355-925B-F54A9E8EF3FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>251C35D7-9A44-4355-925B-F54A9E8EF3FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FTTDDTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
