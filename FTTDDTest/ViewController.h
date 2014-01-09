@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)countUpDidPush:(id)sender;
+
 @end
