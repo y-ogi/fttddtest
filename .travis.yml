@@ -4,4 +4,5 @@ before_script:
   - sudo gem install calabash-cucumber
 
 script:
+  - xcodebuild -project FTTDDTest.xcodeproj -scheme FTTDDTest-cal
   - cucumber
