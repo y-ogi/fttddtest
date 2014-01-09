@@ -5,7 +5,8 @@ Feature: Running a test
 
 Scenario: Example steps
   Given I am on the Welcome Screen
-  Then I swipe left
+  Then I touch the "Count Up" button
+  Then I touch the "Count Up" button
   And I wait until I don't see "Please swipe left"
   And take picture
 
